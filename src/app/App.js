@@ -41,7 +41,7 @@ const App = ({ state }) => {
               <div className="col-3 mx-auto my-3">
                 <div class="d4">
                   <form>
-                    <input type="text" onChange={(event) => setValue(event.target.value)} aria-label="Search" placeholder="Искать здесь..." />
+                    <input type="text" onChange={(event) => setValue(event.target.value)} aria-label="Search" placeholder="Shearch" />
                   </form>
                 </div>
               </div>
