@@ -1,0 +1,171 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/5/1b/cvet-pyatno-relef-kraski-1624.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider {
+    background-image: url(https://monacofrance.net/assets/images/AdobeStock_94584043.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    color: tomato;
+}
+
+.slider .opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-family: revert;
+    font-weight: 800;
+    text-shadow: 0 0 15px rgb(255 102 102);
+    font-size: 55px;
+}
+
+.Link-detail {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.animate-link {
+    transition: 0.2s;
+}
+
+.animate-link:hover{
+    -webkit-transform: scale(1.03); 
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.text-de {
+    font-size: 17px;
+    text-shadow: 0 0 3px #ff6bc1;
+    color: rgb(255, 101, 101);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-item {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 3px rgb(110, 110, 110);
+}
+
+.con-card {
+    background: linear-gradient(to right, #ff9d2c, #ff3574);
+}
+
+.navbar-brand{
+    padding-top: 0!important;
+}
+
+.bg-light {
+    background: linear-gradient(to right, );
+}
+
+.brand-plus {
+    font-family: system-ui;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: 0.2s;
+    font-size: 24px!important;
+}
+
+.modern {
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.modern:hover {
+    text-shadow: 0 0 15px rgb(65, 211, 255);
+
+}
+
+.brand-plus:hover{
+    text-shadow: 0 0 10px #14ffe4;
+    opacity: 1;
+}
+
+.mod-card {
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .mod-card {
+        height: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mod-card {
+        height: 70%;
+    }
+}
+
+@media (min-width: 576px){
+    .mod-card {
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .mod-card {
+        min-height: 80%;
+        max-height: 80%;
+    }
+}
+
+@media (max-width: 845px){
+    .mod-card {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 930px){
+    .mod-card {
+        height: 62vh;
+    }
+}
+
+
+@media (max-width: 1095px){
+    .mod-card {
+        height: 50vh;
+    }
+}
+
+
+@media (max-width: 1205px){
+    .mod-card {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1400px){
+    .mod-card {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1400px){
+    .mod-card {
+        height: 50vh;
+    }
+}
