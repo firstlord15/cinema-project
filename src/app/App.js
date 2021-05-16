@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 
 const App = ({ state }) => {
 
-  const [info, setInfo] = useState(state)
+  const [info] = useState(state)
 
   const [value, setValue] = useState('')
 
@@ -39,10 +39,12 @@ const App = ({ state }) => {
               border: "1px solid #ff6a50"
             }}>
               <div className="col-3 mx-auto my-3">
-                <form class="d-flex input-group-sm">
-                  <input onChange={(event) => setValue(event.target.value)} className="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search" />
-                  <button className="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d4">
+                  <form>
+                    <input type="text" onChange={(event) => setValue(event.target.value)} aria-label="Search" placeholder="Искать здесь..." />
+                    <button type="submit"></button>
+                  </form>
+                </div>
               </div>
               <div className="row">
                 {FilterInfo.map((item) => (

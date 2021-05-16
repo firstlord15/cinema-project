@@ -8,7 +8,7 @@ const Card = ({ item }) => {
         <div>
             <Link to={`/items/${item.id}`} className="Link-detail">
                 <div className="card text-white mod-card border-danger bg-dark">
-                    <img className="card-img-top" style={{objectFit: "cover"}} src={item.image} />
+                    <img className="card-img-top" style={{objectFit: "cover"}} src={item.image} alt=""/>
                     <div className="card-body">
                         <h5 className="card-title text-center title-item">{item.title}</h5>
                         <br />

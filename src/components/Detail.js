@@ -16,7 +16,7 @@ const Detail = ({ state }) => {
                     <h3 className="text-center title-pod mb-4">Трейлер/Фильм</h3>
                     <div className="container-sm">
                         <div class="video-de">
-                            <iframe width="100%" height="600" class="embed-responsive-item" src={item.video}></iframe>
+                            <iframe width="100%" height="600" className="embed-responsive-item" src={item.video}></iframe>
                         </div>
                         <br />
                         <h5 className="title-pod">Description:</h5>
