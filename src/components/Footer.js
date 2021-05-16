@@ -26,10 +26,6 @@ const Footer = () => {
 				</div>
 				<div className="Newsletter col-6 pt-5">
 					<h2 className="h4" style={{color: "grey"}}>Newsletter</h2>
-					<form className="form-group pt-2 d-flex">
-						<input type="email" className="pad-l bg-dark custom-control-input" name="mail"  placeholder="Enter email here..." />
-						<Link className="text-uppercase btn btn-outline-success">Subscribe</Link>
-					</form>
 					<div className="pt-2">
 						<p style={{fontSize: "12px"}} className="text-secondary">©2015 Learning App by mosaicrop.</p>
 					</div>
