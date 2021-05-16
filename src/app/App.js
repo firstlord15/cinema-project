@@ -42,7 +42,6 @@ const App = ({ state }) => {
                 <div class="d4">
                   <form>
                     <input type="text" onChange={(event) => setValue(event.target.value)} aria-label="Search" placeholder="Искать здесь..." />
-                    <button type="submit"></button>
                   </form>
                 </div>
               </div>
