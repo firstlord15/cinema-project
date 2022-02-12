@@ -21,7 +21,7 @@ const App = ({ state }) => {
   })
 
   return (
-    <div className="back">
+    <div className="back page">
       <header>
         <Navbar info={info} />
       </header>
@@ -70,7 +70,7 @@ const App = ({ state }) => {
         </main>
       </div>
       <footer>
-        <Footer />
+          <Footer class = "footer"/>
       </footer>
     </div>
   );

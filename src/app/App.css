@@ -9,6 +9,17 @@ body {
     background-repeat: no-repeat;
 }
 
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto!important;
+}
+
 .slider {
     background-image: url(https://monacofrance.net/assets/images/AdobeStock_94584043.jpeg);
     background-repeat: no-repeat;
