@@ -153,6 +153,8 @@ body {
   color: #be290e;
 }
 
+/* Animation logo */
+
 .slider { 
     font: 400 1em/1.5 "Neuton"; 
     background: linear-gradient(360deg, #42424270, #df2a51);    
@@ -162,7 +164,7 @@ body {
 }
 
 .p-op {
-    color: black;
+    color: darkgrey;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	display: inline-block;
@@ -184,7 +186,7 @@ body {
   	padding: .25em 0 .325em;
 	display: block;
 	margin: 0 auto;
-  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+  	text-shadow: 0 0 80px rgba(228, 15, 68, 0.5);
 
 /* Clip Background Image */
 
@@ -217,22 +219,26 @@ body {
     }
 }
 
-@media (min-width: 768px) {
-    .mod-card {
-        height: 70%;
-    }
-}
-
 @media (min-width: 576px){
     .mod-card {
         height: 100%;
     }
+
 }
 
 @media (min-width: 768px){
     .mod-card {
         min-height: 80%;
         max-height: 80%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .p-op {
+        letter-spacing: .5em;
+        border: 4px double rgba(255,255,255,.25);
+        border-width: 4px 0;
+        font-size: 23px;
     }
 }
 
@@ -245,6 +251,15 @@ body {
 @media (max-width: 930px){
     .mod-card {
         height: 62vh;
+    }
+}
+
+@media (max-width: 1000px){
+    .p-op {
+        letter-spacing: 1px;
+        border: none; 
+        border-width: none; 
+        font-size: 21px;
     }
 }
 

@@ -35,7 +35,7 @@ const App = ({ state }) => {
                   <span className='s-op'>
                     Cinema
                   </span>
-                  &mdash; Ratmir's work😇 &mdash;
+                  Ratmir's work😇;
                 </p>
               </div>
             </div>
