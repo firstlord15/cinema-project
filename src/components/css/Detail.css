@@ -52,13 +52,9 @@ img {
 }
 
 .dark {
-    background: linear-gradient(#6ce6ff91, #51ff90e0);
-}
-
-.dark {
-    background: linear-gradient(#99faeb, #ff8383);
+    background: linear-gradient(rgb(36 36 36 / 57%),rgb(0 0 0 / 88%))
 }
 
 .dark-2 {
-    background: linear-gradient(#cbffcf, #ffc6c6);
+    background: linear-gradient(rgb(36 36 36 / 57%),rgb(0 0 0 / 88%))
 }
