@@ -38,14 +38,14 @@ const items = [
         id: "6", 
         title: "Человек муравей 2",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint beatae facilis vitae voluptatum unde! Nobis sequi iste vitae, reiciendis velit perspiciatis nam quaerat porro totam officia voluptatum eligendi id suscipit.",
-        image: "https://mocah.org/uploads/posts/539583-Wasp-Marvel.jpg",
+        image: "https://kinobay.org/uploads/posts/2018-07/1531256554-807754104.jpg",
         video: "https://www.youtube.com/embed/Du90MCtUpN0"
     },
     {
         id: "7", 
         title: "Один плюс один",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint beatae facilis vitae voluptatum unde! Nobis sequi iste vitae, reiciendis velit perspiciatis nam quaerat porro totam officia voluptatum eligendi id suscipit.",
-        image: "https://nastol.net/wallpaper/big/90/6105507-the-intouchables-driss-francois-cluzet-omar-sy-1.jpg",
+        image: "https://www.vokrug.tv/pic/product/b/a/1/5/ba1504d8e750102fe333ac033ecbdd62.jpeg",
         video: "https://www.youtube.com/embed/tTwFeGArcrs"
     },
     {

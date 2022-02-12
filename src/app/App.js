@@ -30,9 +30,13 @@ const App = ({ state }) => {
           <Route path="/" exact>
             <div className="slider">
               <div className="opacity">
-                <div className="slider-text">
-                  <h1 className="text">Cinema</h1>
-                </div>
+                <p className='p-op'>
+                  Just cinema, my project
+                  <span className='s-op'>
+                    Cinema
+                  </span>
+                  &mdash; Ratmir's work😇 &mdash;
+                </p>
               </div>
             </div>
             <div className="container con-card" style={{
@@ -70,7 +74,7 @@ const App = ({ state }) => {
         </main>
       </div>
       <footer>
-          <Footer class = "footer"/>
+          <Footer className = "footer"/>
       </footer>
     </div>
   );

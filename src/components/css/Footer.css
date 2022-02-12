@@ -1,3 +1,16 @@
+.footer-pos {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	/* justify-content: space-evenly;
+	flex-flow: row; */
+	width: 100%;
+	
+}
+
+.content {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 .black-div {
 	height: 300px;
